@@ -1,0 +1,64 @@
+/* Estilos de header */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del texto */
+}
+
+header {
+    top: 0;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+header img {
+display: flex;
+max-height: 6vh;
+
+
+}
+
+.Container {
+    display: flex;
+    max-width: 77vw;
+    padding: 1vw;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 1vh;
+}
+
+
+nav ul {
+
+    display: flex;
+    gap: 2vw;
+    justify-content: flex-end;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #4aaf48;
+    
+}
+
+
+
+/* Fin de Estilos de header */
+
